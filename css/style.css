@@ -1,0 +1,72 @@
+body{
+  /* Lucida Grande font with a sans-serif fallback */
+  font-family: "Lucida Grande",sans-serif;
+  color: white;
+  background-color: black;
+}
+h1{
+  /* make your headers 64px and centered */
+  font-size: 64px;
+  text-align: center;
+}
+h2{
+  /* Header 2 is 32px, with “black” drop shadow that is offset 4px horizontally, 4px vertically, and 2px blur */
+  font-size: 32px;
+  filter: drop-shadow(4px 4px 2px black);
+}
+p{
+  /* make your paragraphs 16px with 15px padding on the top only */
+  font-size: 16pt;
+  padding-top: 15px;
+}
+img{
+  /* make the images on their own line, centered and 550px wide with proper aspect ratio*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 550px;
+  height: auto;
+}
+div{
+  /*All divs must be at least 100px tall (but will automatically be taller if needed) with 30px padding on all sides.*/
+  min-height: 100px;
+  height: auto;
+  padding: 30px 30px 30px 30px;
+}
+#red{
+  /*Background color is red and text is aligned on the right side.*/
+  background-color: red;
+  text-align: right;
+}
+#blue{
+  /*Background color is blue and text is aligned on the left side.*/
+  background-color:blue;
+  text-align: left;
+}
+#yellow{
+  /*Background color is yellow and text is aligned on the right side.*/
+  background-color:yellow;
+  text-align: right;
+
+}
+#yellow>h2{
+  /*Header 2 is black and drop shadow is “grey” with the same parameters as above*/
+  color: black;
+  filter: drop-shadow(4px 4px 2px grey);
+}
+#yellow>p{
+  /*paragraph text is black*/
+  color: black;
+}
+
+#green{
+  /*Background color is green and text is aligned on the left side.*/
+  background-color:green;
+  text-align: left;
+}
+footer{
+  /* Footer text is centered with 15px padding on the bottom only */
+  text-align: center;
+  padding-bottom: 15px;
+
+}
